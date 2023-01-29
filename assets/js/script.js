@@ -78,7 +78,7 @@ form.addEventListener("submit",
         let question = document.getElementById("question").value;
     if (question.length < 50 || question.length == null)
     {
-        document.getElementById("defquestion").innerHTML = "<p class=contact_error>Veuillez précisez votre question</p>";
+        document.getElementById("defquestion").innerHTML = "<p class=contact_error>Veuillez précisez votre question (en 50 caractères minimum)</p>";
         var result= false;
         event.preventDefault()
     }
