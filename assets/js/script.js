@@ -1,5 +1,4 @@
-var form = document.getElementById("formulaire_contact");
-let question = document.getElementById("question").value;
+const form = document.getElementById("formulaire_contact");
 
 // REGEX
 const regex = /^[a-zA-Z-\s]+$/;
@@ -83,6 +82,7 @@ form.addEventListener("submit",
         event.preventDefault()
     }
 
+        // VALIDATION TRAITEMENT INFO
     if (document.getElementById("traitement").checked !=true){
         document.getElementById("deftraitement").innerHTML = "<p class=contact_error>Veuillez acceptez le traitement de vos informations</p>";
         var result= false;
