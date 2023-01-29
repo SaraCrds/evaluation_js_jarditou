@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+
+/*---CONTAINER CSS---*/
+
+.container{
+    width:55%;
+    margin:auto;
+    background-color: white;
+}
+
+body{
+    background-image: url("../../assets/img/fond.png");
+    background-size: auto;
+    background-position: top left;
+    margin:0px;
+    background-color: white;
+}
+
+/*---LOGO CSS---*/
+
+.logo{
+    color:#F6BD34;
+    font-family:bebas neue;
+    font-size:6vw;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+.verte{
+    color:#78BC5F;
+}
+
+.slogan{
+    color: #F6BD34;
+    font-size:1vw;
+    text-align:start;
+    font-family: montserrat;
+    margin:0px;
+    margin-top: -1vh;
+}
+
+.table {
+    display:table;
+}
+
+.tablerow {
+    display:table-row;
+}
+
+.tablecell {
+    display:table-cell;
+}
+
+.tablecell_2 {
+    display:table-cell;
+    vertical-align: middle;
+    width:60%;
+}
+
+.tablecell img {
+    max-width: 60%;
+    height:auto;
+    float: right;
+}
+
+/*---NAV BAR CSS---*/
+
+.table_nav {
+    width:100%;
+    display:table;
+    height:35px;
+    background-color: #78BC5F ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom:#2D9D2B 5px solid;
+}
+
+.tablecell_nav{
+    width:33%;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tablecell_nav a, .tablecell_nav a:link, .tablecell_nav a:visited, .tablecell_nav a:hover, .tablecell_nav a:active {
+    color:white;
+    font-family: montserrat;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tablecell_nav a:hover {
+    letter-spacing: 2px;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+}
+
+/*--- PROMOTION LAYOUT ---*/
+
+.promotion img {
+    max-width: 100%;
+    height:auto;
+}
+
+/*--- FOOTER ---*/
+
+footer {
+    background-color: #4e4e4e;
+    max-width: 100%;
+    height:auto;
+}
+
+.footer_title {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom:15px;
+}
+
+.footer_link a, .footer_link a:link, .footer_link a:active, .footer_link a:hover, .footer_link a:visited {
+    color:#a5a5a5;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footer_link a:hover {
+    color: #F6BD34;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.tablecell_footer {
+    display:table-cell;
+    width:33%;
+}
+
+.table_footer {
+    display:table;
+    width:100%;
+}
+
+/*--- IDENTICAL TO ALL SHEETS ---*/
+
+hr {
+    height:2px;
+    background: rgb(78,78,78);
+background: linear-gradient(90deg, rgba(78,78,78,0) 0%, rgba(78,78,78,0.75) 20%, rgba(78,78,78,1) 50%, rgba(78,78,78,0.75) 80%, rgba(78,78,78,0) 100%);
+border:0px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #4e4e4e;
+    margin:5px;
+}
+
+.jaune {
+    color: #F6BD34;
+}
+
+*{
+    accent-color: #2D9D2B;
+}
+
+*::selection{
+    background-color: #2D9D2B;
+    color:white;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* --- INDEX --- */
+
+.table_index {
+    display:table;
+}
+
+.tablecell_article {
+    display:table-cell;
+    padding: 15px;
+}
+
+.tablecell_aside {
+    display:table-cell;
+    text-align: center;
+    width:25%;
+    background-image: url('../../assets/img/lapin.jpg');
+    background-size:cover;
+    background-position: center;
+    padding-right:10px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #4e4e4e;
+}
+
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+    text-align: justify;
+}
+
+aside p {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight:bolder;
+}
+
+/* --- TABLE css --- */
+#table_wrap {
+    position:relative;
+}
+
+#table_scroll {
+    overflow: auto;
+    width:100%;
+}
+
+
+.article_tableau  {
+    padding: 15px;
+}
+
+.article_tableau table {
+    /* table-layout:fixed; */
+    width:100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+.article_tableau th {
+    font-size:large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.article_tableau td {
+    border: #F6BD34 2px solid;
+    height: 90px;
+}
+
+.article_tableau th {
+    background-color: #F6BD34;
+    color:white;
+}
+
+table tr td:first-child, table tr th:first-child {
+    border-left: 0px;
+}
+
+table tr td:last-child, table tr th:last-child {
+    border-right: 0px;
+}
+
+table tr:last-child td {
+    border-bottom: 0px;
+}
+
+td img {
+    display: inline;
+    object-fit: cover;
+    height: 90px;
+}
+
+table tr td:first-child {
+    max-width:150px;
+}
+
+/* --- CONTACT --- */
+
+label {
+    vertical-align: top;
+}
+
+.article_contact  {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+}
+
+legend {
+    font-size: large;
+    color: #4e4e4e;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+form {
+    width: 100%;
+    overflow:hidden;
+}
+
+.field_wrap {
+    width:100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.field_wrap input, .field_wrap textarea , .field_wrap select{
+    width: 100%;
+    flex-grow: 1;
+}
+
+label, #checkbox_text{
+    margin-right: 10px;
+    width: 210px;
+}
+
+#checkbox_text {
+    display:inline-block;
+    width: 170px;
+    margin:0px;
+}
+
+.tablecell_contact {
+width: 50%;
+}
+
+.table#contact {
+    width:100%;
+}
+
+textarea {
+    resize:none;
+}
+
+.field_wrap textarea {
+    height:150px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: lightgray;
+    border-radius: 0px;
+    border:0px;
+    padding: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+    font-weight: bold;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    color:#2D9D2B;
+}
+
+select{
+    background-color: lightgray;
+    border-radius: 0px;
+    border:0px;
+    padding: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+}
+
+.contact_error {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: red;
+    font-size: 0.8rem;
+}
+
+/*--- MEDIA QUERIES ---*/
+
+@media screen and (max-width: 768px) 
+{ 
+        /* LOGO QUERIES */
+
+    .slogan{
+        font-size:2vw;
+    }
+
+    .logo{
+        font-size:10vw;
+    }
+
+    .container{
+        width:85%;
+        margin:auto;
+        background-color: white;
+    }
+    
+        /* --- NAV --- */
+
+    .tablerow#nav{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+        /* --- INDEX QUERIES ---*/
+
+    .tablecell_aside { 
+        display: none;
+    } 
+
+        /* --- TABLE QUERIES ---*/
+
+    /* table tr td:first-child, table tr th:first-child {
+        display: none;
+    } */
+
+    td, th {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+        /* --- FOOTER --- */
+
+    ul {
+        padding: 12px;
+        word-wrap: break-word;
+    }
+
+    .table_footer {
+        table-layout:fixed;
+    }
+
+    footer li.footer_link {
+        display: none;
+    }
+
+        /* --- TEXTE --- */
+    
+    h2 {
+        font-size: 1.5rem;
+    }   
+
+    h3 {
+        font-size: 1.25rem;
+    } 
+
+    p {
+        font-size: 1rem;
+    } 
+}     

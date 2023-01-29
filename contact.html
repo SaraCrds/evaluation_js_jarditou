@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarditou</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="table" id="centerlogo">
+                <div class="tablerow">
+                    <div class="tablecell">
+                        <img src="assets/img/nouveaulogo.png" alt="logo" title="logo">
+                    </div>
+                    <div class="tablecell_2">
+                        <h1 class="logo">Jardi<span class="verte">tou</span></h1>
+                        <p class="slogan">La qualité depuis <span class="verte">tou</span>jours</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+        <div class="table_nav">
+            <div class="tablerow" id="nav">
+                <div class="tablecell_nav">    
+                    <a href="index.html" class="navlink">Accueil</a>
+                </div>
+                <div class="tablecell_nav">    
+                    <a href="tableau.html" class="navlink">Tableau</a>
+                </div>
+                <div class="tablecell_nav">    
+                    <a href="contact.html" class="navlink">Contact</a>
+                </div>
+            </div>
+        </div>
+        </nav>
+        <section class="promotion" >
+            <img src="assets/img/promotion.png" alt="promotion" title="promotion">
+    </section>
+        <section>
+            <article class="article_contact">
+            <h2><span class="material-symbols-outlined">sunny</span> <span class="jaune">C</span>ontact</h2>
+            <hr>
+            <p>* Ces zones sont obligatoires</p>
+            <form action="#" method="POST" id="formulaire_contact">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                    <div class="field_wrap">
+                            <label for="nom">Votre nom*: </label>
+                            <input type="text" name="nom" id="nom" maxlength="25">
+                        <br>
+                    </div>
+                    <span class="defform" id="defnom"></span>
+                    <div class="field_wrap">
+                        <label for="prenom">Votre prénom*:  </label>
+                        <input type="text" name="prenom" id="prenom" maxlength="30"> 
+                        <br>
+                    </div>
+                    <span class="defform" id="defprenom"></span>
+                        <p id="checkbox_text">Sexe*:</p>
+                            <input type="radio" name="sexe" id="feminin" value="Feminin">
+                            <label for="feminin">Féminin</label>
+                            <input type="radio" name="sexe" id="masculin" value="Masculin"> 
+                            <label for="masculin">Masculin</label>
+                    <span class="defform" id="defsexe"><br><br></span>
+                            <label for="date">Date de naissance*:</label>
+                            <input type="date" name="ddn" id="date" value="">
+                    <span class="defform" id="defdate"><br><br></span>
+                    <div class="field_wrap">
+                        <label for="codepostal">Code Postal*:  </label>
+                        <input type="text" name="codepostal" id="codepostal" maxlength="10"> 
+                        <br>
+                    </div>
+                    <span class="defform" id="defcp"></span>
+                    <div class="field_wrap">
+                        <label for="adresse">Adresse:  </label>
+                        <input type="text" name="adresse" id="adresse"> <br>
+                    </div>
+                    <div class="field_wrap">
+                        <label for="ville">Ville:  </label>
+                        <input type="text" name="ville" id="ville"> <br>
+                    </div>
+                    <div class="field_wrap">
+                        <label for="email">Email*:  </label>
+                        <input type="text" name="email" id="email" placeholder="dave.loper@afpa.fr"> 
+                        <br>
+                    </div>
+                    <span class="defform" id="defemail"></span>
+            </fieldset>
+            <fieldset>
+                <legend>Votre demande</legend>
+                <div class="field_wrap">
+                    <label for="sujet">Sujet*:  </label>
+                    <select id="sujet"> 
+                        <div class="dropdown">
+                            <option value="" selected>Veuillez séléctionner un sujet</option>
+                            <option value="produit">Question sur un produit</option>
+                            <option value="reclamation">Réclamation</option>
+                            <option value="autres">Autres</option>
+                        </div>
+                    </select>
+                    <br>
+                </div>
+                <span class="defform" id="defsujet"></span>
+                 <div class="field_wrap">
+                    <label for="question">Votre question*:  </label>
+                    <textarea name="question" id="question" placeholder="minimum 50 caractères s'il vous plaît"></textarea><br>
+                 </div>
+                 <span class="defform" id="defquestion"></span>
+                <input type="checkbox" id="traitement" name="traitement" value="accepter">
+                <label for="traitement">* J'accepte le traitement informatique de ce formulaire.</label>
+                <br>
+                <span class="defform" id="deftraitement"></span>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Annuler">
+            </fieldset>
+        </form>
+        </article>
+        </section>
+        <footer>
+            <div class="table_footer">
+                <div class="tablerow">
+                    <div class="tablecell_footer">
+                        <ul>
+                            <li class="footer_title">L'entreprise</li>
+                            <li class="footer_link"><a href="conditionvente">Conditions générales de vente</a></li>
+                            <li class="footer_link"><a href="offres">Conditions des offres sur le site</a></li>
+                            <li class="footer_link"><a href="mentionlegales">Mention légales</a></li>
+                            <li class="footer_link"><a href="confidentialite">Charte de confidentialité et cookies</a></li>
+                        </ul>
+                    </div>
+                    <div class="tablecell_footer">
+                        <ul>
+                            <li class="footer_title">Partenariat</li>
+                            <li class="footer_link"><a href="regiepub">Régie publicitaire</a></li>
+                            <li class="footer_link"><a href="devenirpartenaire">Devenir partenaire ou affilié</a></li>
+                        </ul>
+                    </div>
+                    <div class="tablecell_footer">
+                        <ul>
+                            <li class="footer_title">Vous informer</li>
+                            <li class="footer_link"><a href="aide">Aide</a></li>
+                            <li class="footer_link"><a href="plansite">Plan du site</a></li>
+                            <li class="footer_link"><a href="horraire">Horraire</a></li>
+                            <li class="footer_link"><a href="commandes">Mes commandes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
